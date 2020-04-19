@@ -12,4 +12,5 @@
     <string name="count_button_text">Count</string>
     <string name="toast_action_text">Hello toast!</string>
     <string name="result_text">Result</string>
+    <string name="description">Description</string>
 </resources>
