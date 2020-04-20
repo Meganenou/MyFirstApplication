@@ -9,5 +9,11 @@ public interface PokeApi {
     Call<PokemonRestResponse> getPokemonResponse();
 
     @GET("/api/v2/pokemon-habitat")
-    Call<PokemonRestResponse> getHabitat();
+    Call<Habitat> getHabitat();
+
+    @GET("/api/v2//api/v2/pokedex/")
+    Call<Pokedex> getPokedex();
+
+    @GET("/api/v2/region/")
+    Call<Region> getRegion();
 }
