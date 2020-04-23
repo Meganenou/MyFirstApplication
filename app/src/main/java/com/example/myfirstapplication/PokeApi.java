@@ -5,10 +5,10 @@ import retrofit2.http.GET;
 import retrofit2.http.Query;
 
 public interface PokeApi {
-    @GET("/api/v2/pokemon")
+    @GET("/api/v2/pokemon_accueil")
     Call<PokemonRestResponse> getPokemonResponse();
 
-    @GET("/api/v2/pokemon-habitat")
+    @GET("/api/v2/pokemon_accueil-habitat")
     Call<Habitat> getHabitat();
 
     @GET("/api/v2//api/v2/pokedex/")

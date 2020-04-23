@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Poke Earth</string>
+    <string name="app_name">"Pokemon Earth"</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -13,4 +13,7 @@
     <string name="toast_action_text">Hello toast!</string>
     <string name="result_text">Result</string>
     <string name="description">Description</string>
+    <string name="example_application">Example application</string>
+    <string name="todo">TODO</string>
+    <string name="main_title">Main_title</string>
 </resources>
