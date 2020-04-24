@@ -1,0 +1,259 @@
+{
+  "region":[
+    {
+      "name":"Kalos",
+      "description":"Kalos is the region where the storyline of the Pokémon X and Y games takes place.",
+      "story":"The Kalos region has a rich historical and cultural past, marked today by numerous monuments and a very varied museum.\n3,000 years before, during the Great Kalos War, many Pokémon had to go to the front to take part in the battle, including the Floette d'A.Z.  (the King of Kalos at the time, who was very fond of his Pokémon). Unfortunately, this Pokémon died, driving A.Z. mad with rage. The king then built a huge machine in Cromlac'h that could revive his Pokémon, even offering it eternal life.Afterwards, A.Z. wanted revenge on those who had slaughtered his Pokémon, and turned his machine into a weapon of destruction: the ultimate weapon. This put an end to the great war of that time and cost the lives of many Pokemon. A.Z. had become a true god of destruction for Floette, and Floette abandoned him until this man changed. Since then, the former king of Kalos has been wandering the world in the hope of finding Floette.\n800 years before Pokémon X and Y, Xerneas brought back vitality / Yveltal exhausted the living beings of the region. Afterwards, Xerneas withdrew into hibernation in the form of a dead tree in the heart of a deep forest / Yveltal in the form of a cocoon deep in the mountains.",
+      "image":"https://zupimages.net/viewer.php?id=20/17/xptk.png"
+    },
+    {
+      "name":"Unova",
+      "description":"Unys is the region of the Pokémon Black and White and Pokémon Black 2 and White 2 games. Unys is based in the Greater New York area of the United States.",
+      "story":"",
+      "image":"https://zupimages.net/viewer.php?id=20/17/cqvw.png"
+    },
+    {
+      "name":"Sinnoh",
+      "description":"Sinnoh is a region of the Pokémon World that appears in the Pokémon Diamond, Pearl and Platinum games. This region is located north of the Kanto, Johto and Hoenn regions.",
+      "story":"",
+      "image":"https://zupimages.net/viewer.php?id=20/17/k1fr.png"
+    },
+    {
+      "name":"Johto",
+      "description":"Johto is one of the regions of the Pokémon world that appears in the Pokémon Gold, Silver and Crystal and Pokémon HeartGold and SoulSilver games.",
+      "story":"",
+      "image":"https://zupimages.net/viewer.php?id=20/17/477r.png"
+    },
+    {
+      "name":"Hoenn",
+      "description":"Hoenn is a region of the Pokémon world that appears in the Pokémon Ruby, Sapphire and Emerald games and their remakes, Pokémon Omega Ruby and Alpha Sapphire. It is located southwest of Johto and Kanto.",
+      "story":"",
+      "image":"https://zupimages.net/viewer.php?id=20/17/zond.png"
+    },
+    {
+      "name":"Kanto",
+      "description":"Kanto is the first revealed region of the Pokémon world to appear in the Red, Blue and Yellow Pokémon games.",
+      "story":"",
+      "image":"https://zupimages.net/viewer.php?id=20/17/a2yt.png"
+    },
+    {
+      "name":"Alola",
+      "description":"Alola is the region where the story of Pokémon Sun and Moon and Pokémon Ultra-Sun and Ultra-Moon takes place. This region is based on the Hawaiian archipelago.",
+      "story":"",
+      "image":"https://zupimages.net/viewer.php?id=20/17/n4qb.png"
+    },
+    {
+      "name":"Galar",
+      "description":"Galar is the region where the plot of the Pokémon Sword and Shield games takes place. Galar has three important cities: Motorby, Kickenham and the larger Winscor.",
+      "story":"",
+      "image":"https://zupimages.net/viewer.php?id=20/17/22gc.png"
+    }
+  ],
+  "pokemon":[
+    {
+      "id":"1",
+      "name":"Fletchling Fletchinder Talonflame",
+      "image":""
+    },
+    {
+      "id":"2",
+      "name":"Scatterbug Spewpa Vivillon",
+      "image":""
+    },
+    {
+      "id":"3",
+      "name":"Pansage Pansear Panpour",
+      "image":""
+    },
+    {
+      "id":"4",
+      "name":"Pichu Pikachu Raichu",
+      "image":""
+    },
+    {
+      "id":"5",
+      "name":"Magikarp Gyarados",
+      "image":""
+    },
+    {
+      "id":"6",
+      "name":"Litleo Pyroar",
+      "image":""
+    },
+    {
+      "id":"7",
+      "name":"Riolu Lucario",
+      "image":""
+    },
+    {
+      "id":"8",
+      "name":"Flabébé Floette Florges",
+      "image":""
+    },
+    {
+      "id":"9",
+      "name":"Scraggy Scraggy",
+      "image":""
+    },
+    {
+      "id":"10",
+      "name":"Espurr Meowstic",
+      "image":""
+    },
+    {
+      "id":"11",
+      "name":"Honedge Aegislash",
+      "image":""
+    },
+    {
+      "id":"12",
+      "name":"Ducklett Swanna",
+      "image":""
+    },
+    {
+      "id":"13",
+      "name":"Snorlax",
+      "image":""
+    },
+    {
+      "id":"14",
+      "name":"Axew Fraxure Haxorus",
+      "image":""
+    },
+    {
+      "id":"15",
+      "name":"Trapinch",
+      "image":""
+    },
+    {
+      "id":"16",
+      "name":"Goomy Sliggoo Goodra",
+      "image":""
+    },
+    {
+      "id":"17",
+      "name":"Karrablast Escavalier / Shelmet Accelgor",
+      "image":""
+    },
+    {
+      "id":"18",
+      "name":"Gastly Haunter Gengar",
+      "image":""
+    },
+    {
+      "id":"19",
+      "name":"Pawniard Bisharp",
+      "image":""
+    },
+    {
+      "id":"20",
+      "name":"Klefki",
+      "image":""
+    },
+    {
+      "id":"21",
+      "name":"Foongus Amoonguss",
+      "image":""
+    },
+    {
+      "id":"22",
+      "name":"Phantump Trevenant / Pumpkaboo Gourgeist",
+      "image":""
+    },
+    {
+      "id":"23",
+      "name":"Trubbish Garbodor",
+      "image":""
+    },
+    {
+      "id":"24",
+      "name":"Cubchoo Beartic",
+      "image":""
+    },
+    {
+      "id":"25",
+      "name":"Timburr Gurdurr Conkeldurr",
+      "image":""
+    },
+    {
+      "id":"26",
+      "name":"Noibat Noivern",
+      "image":""
+    },
+    {
+      "id":"27",
+      "name":"Druddigon",
+      "image":""
+    },
+    {
+      "id":"28",
+      "name":"Deino Zweilous Hydreigon",
+      "image":""
+    },
+    {
+      "id":"29",
+      "name":"Mienfoo Mienshao",
+      "image":""
+    },
+    {
+      "id":"30",
+      "name":"Absol",
+      "image":""
+    },
+    {
+      "id":"31",
+      "name":"sepiatop sepiatroce",
+      "image":""
+    },
+    {
+      "id":"32",
+      "name":"Wailmer Wailord",
+      "image":""
+    },
+    {
+      "id":"33",
+      "name":"Skrelp Dragalge",
+      "image":""
+    },
+    {
+      "id":"34",
+      "name":"Relicanth",
+      "image":""
+    },
+    {
+      "id":"35",
+      "name":"Onix Steelix",
+      "image":""
+    },
+    {
+      "id":"36",
+      "name":"Woobat Swoobat",
+      "image":""
+    },
+    {
+      "id":"37",
+      "name":"Tyrunt Tyrantrum / Amaura Aurorus",
+      "image":""
+    },
+    {
+      "id":"38",
+      "name":"Hawlucha",
+      "image":""
+    },
+    {
+      "id":"39",
+      "name":"Solosis Duosion Reuniclus",
+      "image":""
+    },
+    {
+      "id":"40",
+      "name":"Sableye",
+      "image":""
+    },
+    {
+      "id":"41",
+      "name":"Lapras",
+      "image":""
+    }
+  ]
+}
