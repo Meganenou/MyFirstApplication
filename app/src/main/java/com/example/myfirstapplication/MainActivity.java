@@ -1,13 +1,19 @@
 package com.example.myfirstapplication;
 
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.JsonArray;
 import com.google.gson.reflect.TypeToken;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,10 +21,13 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
@@ -26,17 +35,18 @@ import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Callback;
-import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
-    private ListAdapter mAdapter;
+    private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager layoutManager;
 
-    private static final String BASE_URL = "https://pokeapi.co/";
+    private List<Region> regionList;
+
+    private static final  String URL_DATA ="https://raw.githubusercontent.com/Meganenou/MyFirstApplication/master/MyAPI_pokemon.json";
 
     private Gson gson;
 
@@ -46,52 +56,96 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        gson = new GsonBuilder()
+        regionList = new ArrayList<>();
+
+        loadRecyclerViewData();
+
+       /* gson = new GsonBuilder()
                 .setLenient()
-                .create();
+                .create();*/
 
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
-        sharedPreferences = getSharedPreferences(Constants.NAME_POKEMON_APP, Context.MODE_PRIVATE);
+      // sharedPreferences = getSharedPreferences(Constants.NAME_POKEMON_APP, Context.MODE_PRIVATE);
 
-        List<Pokemon> pokemonList = getDataFromCache();
-        if(pokemonList != null){
-            showList(pokemonList);
-        } else {
-            makeApiCall();
-        }
+  /*     List<Region> regionList = getDataFromCache();
+        if(regionList != null){
+            showList(regionList);
+        } else { make..
+        }*/
     }
 
-    private List<Pokemon> getDataFromCache() {
-        String jsonPokemon = sharedPreferences.getString(Constants.KEY_POKEMON_LIST, null);
+    private void loadRecyclerViewData(){
+        ProgressDialog progressDialog = new ProgressDialog(this);
+        progressDialog.setMessage("Loadind data...");
+        progressDialog.show();
+
+        StringRequest stringRequest = new StringRequest(Request.Method.GET,
+                URL_DATA,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String s) {
+                        progressDialog.dismiss();
+                        try {
+                            JSONObject jsonObject = new JSONObject(s);
+                            JSONArray array = jsonObject.getJSONArray("region");
+
+                            for(int i = 0; i < array.length(); i++){
+                                JSONObject o = array.getJSONObject(i);
+                                Region region = new Region(
+                                        o.getString("name"),
+                                        o.getString("description"),
+                                        o.getString("story"),
+                                        o.getString("image")
+                                );
+                                regionList.add(region);
+                            }
+
+                            mAdapter = new ListAdapter(regionList, getApplicationContext());
+                            recyclerView.setAdapter(mAdapter);
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError volleyError) {
+                        progressDialog.dismiss();
+                        Toast.makeText(getApplicationContext(), volleyError.getMessage(), Toast.LENGTH_SHORT).show();
+                    }
+                });
+        RequestQueue requestQueue = Volley.newRequestQueue(this);
+        requestQueue.add(stringRequest);
+    }
+
+   /* private List<Region> getDataFromCache() {
+        String jsonPokemon = sharedPreferences.getString(Constants.KEY_REGION_LIST, null);
         if(jsonPokemon == null) {
             return null;
         } else {
-            Type listType = new TypeToken<List<Pokemon>>(){}.getType();
+            Type listType = new TypeToken<List<Region>>(){}.getType();
             return gson.fromJson(jsonPokemon, listType);
         }
-    }
+    }*/
 
-    private void showList(List<Pokemon> pokemonList) {
-        /* Recycler View */
+  /*  private void showList(List<Region> regionList) {
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         recyclerView.setHasFixedSize(true);
-        // use a linear layout manager
-        layoutManager = new LinearLayoutManager(this);
-        recyclerView.setLayoutManager(layoutManager);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        mAdapter = new ListAdapter(pokemonList);
-        recyclerView.setAdapter(mAdapter);
-    }
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        regionList = new ArrayList<>();
+    }*/
 
 
     @Override
@@ -117,7 +171,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
           /* API */
-    private void makeApiCall() {
+    /*private void makeApiCall() {
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_URL)
@@ -131,9 +185,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<PokemonRestResponse> call, Response<PokemonRestResponse> response) {
                 if(response.isSuccessful() && response.body() != null) {
-                    List<Pokemon> pokemonList = response.body().getResults();
-                    saveList(pokemonList);
-                    showList(pokemonList);
+                    List<Region> region = response.body().getReg();
+                    saveList(region);
+                    showList(region);
                 } else {
                     showError();
                 }
@@ -144,13 +198,13 @@ public class MainActivity extends AppCompatActivity {
                 showError();
             }
         });
-    }
+    }*/
 
-    private void saveList(List<Pokemon> pokemonList) {
-        String jsonString = gson.toJson(pokemonList);
+    /*private void saveList(List<Region> regionList) {
+        String jsonString = gson.toJson(regionList);
         sharedPreferences
                 .edit()
-                .putString(Constants.KEY_POKEMON_LIST, jsonString)
+                .putString(Constants.KEY_REGION_LIST, jsonString)
                 .apply();
 
         Toast.makeText(getApplicationContext(), "List saved", Toast.LENGTH_SHORT).show();
@@ -160,5 +214,5 @@ public class MainActivity extends AppCompatActivity {
 
     private void showError() {
         Toast.makeText(getApplicationContext(), "API Error", Toast.LENGTH_SHORT).show();
-    }
+    }*/
 }

@@ -2,14 +2,19 @@ package com.example.myfirstapplication;
 
 public class Pokemon {
 
+    private String id;
     private String name;
-    private String url;
+    private String image;
+
+    public String getId() {
+        return id;
+    }
 
     public String getName() {
         return name;
     }
 
-    public String getUrl() {
-        return url;
+    public String getImage() {
+        return image;
     }
 }
