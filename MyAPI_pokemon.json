@@ -92,7 +92,7 @@
     },
     {
       "id":"9",
-      "name":"Scraggy Scraggy",
+      "name":"Scraggy Scrafy",
       "image":""
     },
     {
@@ -121,11 +121,6 @@
       "image":""
     },
     {
-      "id":"15",
-      "name":"Trapinch",
-      "image":""
-    },
-    {
       "id":"16",
       "name":"Goomy Sliggoo Goodra",
       "image":""
@@ -143,11 +138,6 @@
     {
       "id":"19",
       "name":"Pawniard Bisharp",
-      "image":""
-    },
-    {
-      "id":"20",
-      "name":"Klefki",
       "image":""
     },
     {
@@ -216,11 +206,6 @@
       "image":""
     },
     {
-      "id":"34",
-      "name":"Relicanth",
-      "image":""
-    },
-    {
       "id":"35",
       "name":"Onix Steelix",
       "image":""
@@ -248,11 +233,6 @@
     {
       "id":"40",
       "name":"Sableye",
-      "image":""
-    },
-    {
-      "id":"41",
-      "name":"Lapras",
       "image":""
     }
   ]
