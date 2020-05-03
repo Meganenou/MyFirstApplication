@@ -5,173 +5,9 @@
          "description":"Kalos is the region where the storyline of the Pokémon X and Y games takes place.",
          "story":"3,000 years before, during the Great Kalos War, many Pokémon had to go to the front in the battle, including the Floette d'A.Z.(the King of Kalos). Unfortunately, his Pokémon died, driving him crazy, then built a huge machine that could revive his Pokémon and offering it eternal life. Afterwards, A.Z. wanted to revenge, he turned his machine into a weapon of destruction: the ultimate weapon. This put an end to the great war and cost the lives of many Pokémon. A.Z. had become a true god of destruction for Floette, and it abandoned him until this man changed. Since then, the King of Kalos has been wandering the world in the hope of finding Floette.",
          "image":"https://zupimages.net/up/20/18/d9d5.png",
-         "pokemon":[
-            {
-               "id":"0",
-               "name":"Staters Pokémon : Chespin Quilladin Chesnaught / Froakie Frogadier Greninja / Fennekin Braixen Delphox",
-               "image":"https://zupimages.net/up/20/18/dm45.png"
-            },
-            {
-               "id":"1",
-               "name":"Fletchling Fletchinder Talonflame",
-               "image":"https://zupimages.net/up/20/18/o37s.png"
-            },
-            {
-               "id":"2",
-               "name":"Scatterbug Spewpa Vivillon",
-               "image":"https://zupimages.net/up/20/18/h1nr.png"
-            },
-            {
-               "id":"3",
-               "name":"Pansage Pansear Panpour",
-               "image":"https://zupimages.net/up/20/18/hilx.png"
-            },
-            {
-               "id":"4",
-               "name":"Pichu Pikachu Raichu",
-               "image":"https://zupimages.net/up/20/18/8f9b.png"
-            },
-            {
-               "id":"5",
-               "name":"Magikarp Gyarados Mega Gyarados",
-               "image":"https://zupimages.net/up/20/18/m2k5.png"
-            },
-            {
-               "id":"6",
-               "name":"Litleo Pyroar",
-               "image":"https://zupimages.net/up/20/18/r50d.png"
-            },
-            {
-               "id":"7",
-               "name":"Riolu Lucario",
-               "image":"https://zupimages.net/up/20/18/gap6.png"
-            },
-            {
-               "id":"8",
-               "name":"Flabébé Floette Florges",
-               "image":"https://zupimages.net/up/20/18/068q.png"
-            },
-            {
-               "id":"9",
-               "name":"Scraggy Scrafy",
-               "image":"https://zupimages.net/up/20/18/a5ty.png"
-            },
-            {
-               "id":"10",
-               "name":"Espurr Meowstic",
-               "image":"https://zupimages.net/up/20/18/s9lo.png"
-            },
-            {
-               "id":"11",
-               "name":"Honedge Aegislash",
-               "image":"https://zupimages.net/up/20/18/p33h.png"
-            },
-            {
-               "id":"12",
-               "name":"Ducklett Swanna",
-               "image":"https://zupimages.net/up/20/18/ghgn.png"
-            },
-            {
-               "id":"13",
-               "name":"Axew Fraxure Haxorus",
-               "image":"https://zupimages.net/up/20/18/y3iv.png"
-            },
-            {
-               "id":"14",
-               "name":"Goomy Sliggoo Goodra",
-               "image":"https://zupimages.net/up/20/18/v0ba.png"
-            },
-            {
-               "id":"15",
-               "name":"Karrablast Escavalier / Shelmet Accelgor",
-               "image":"https://zupimages.net/up/20/18/v9uw.png"
-            },
-            {
-               "id":"16",
-               "name":"Gastly Haunter Gengar",
-               "image":"https://zupimages.net/up/20/18/4ls6.png"
-            },
-            {
-               "id":"17",
-               "name":"Foongus Amoonguss",
-               "image":"https://zupimages.net/up/20/18/jxxv.png"
-            },
-            {
-               "id":"18",
-               "name":"Phantump Trevenant / Pumpkaboo Gourgeist",
-               "image":"https://zupimages.net/up/20/18/eyfq.png"
-            },
-            {
-               "id":"19",
-               "name":"Trubbish Garbodor",
-               "image":"https://zupimages.net/up/20/18/xtg0.png"
-            },
-            {
-               "id":"20",
-               "name":"Cubchoo Beartic",
-               "image":"https://zupimages.net/up/20/18/v7po.png"
-            },
-            {
-               "id":"21",
-               "name":"Timburr Gurdurr Conkeldurr",
-               "image":"https://zupimages.net/up/20/18/sw2s.png"
-            },
-            {
-               "id":"22",
-               "name":"Noibat Noivern",
-               "image":"https://zupimages.net/up/20/18/2nxk.png"
-            },
-            {
-               "id":"23",
-               "name":"Deino Zweilous Hydreigon",
-               "image":"https://zupimages.net/up/20/18/59ve.png"
-            },
-            {
-               "id":"24",
-               "name":"Mienfoo Mienshao",
-               "image":"https://zupimages.net/up/20/18/a3gh.png"
-            },
-            {
-               "id":"25",
-               "name":"Absol",
-               "image":"https://zupimages.net/up/20/18/htq4.png"
-            },
-            {
-               "id":"26",
-               "name":"sepiatop sepiatroce",
-               "image":"https://zupimages.net/up/20/18/3d5v.png"
-            },
-            {
-               "id":"27",
-               "name":"Wailmer Wailord",
-               "image":"https://zupimages.net/up/20/18/5apk.png"
-            },
-            {
-               "id":"28",
-               "name":"Skrelp Dragalge",
-               "image":"https://zupimages.net/up/20/18/kijq.png"
-            },
-            {
-               "id":"29",
-               "name":"Woobat Swoobat",
-               "image":"https://zupimages.net/up/20/18/57n8.png"
-            },
-            {
-               "id":"30",
-               "name":"Tyrunt Tyrantrum / Amaura Aurorus",
-               "image":"https://zupimages.net/up/20/18/zeaa.png"
-            },
-            {
-               "id":"31",
-               "name":"Solosis Duosion Reuniclus",
-               "image":"https://zupimages.net/up/20/18/5pxn.png"
-            },
-            {
-               "id":"999",
-               "name":"Xerneas VS Yveltal",
-               "image":"https://zupimages.net/up/20/18/9eqy.png"
-            }
-         ]
+         "pokemon_centre":"https://i.goopics.net/GADva.png",
+         "pokemon_mont":"https://i.goopics.net/eaNY5.png",
+         "pokemon_cote":"https://i.goopics.net/oP3JW.png"
       },
       {
          "name":"Unova",
@@ -186,55 +22,55 @@
          "name":"Sinnoh",
          "description":"Sinnoh is a region of the Pokémon World that appears in the Pokémon Diamond, Pearl and Platinum games. This region is located north of the Kanto, Johto and Hoenn regions.",
          "story":"According to several myths, Sinnoh was the first to be created. In the depths of oblivion, an egg appears and hatches into Arceus, the first Pokémon to exist. Arceus is the first to create Dialga and Palkia, giving them the ability to control Time and Space, respectively. At the same time Giratina was born but was banished to another dimension because of its violence. In the creation of the world, Arceus created Azelf, Uxie and Mesprit, symbolizing willpower, knowledge and emotion respectively, to transmit them to humans and Pokémon.",
-         "image":"https://zupimages.net/up/20/18/nuct.png",
-         "pokemon":[
-
-         ]
+         "image":"https://zupimages.net/up/20/18/nuct.png",      
+         "pokemon_centre":"",
+         "pokemon_mont":"",
+         "pokemon_cote":""
       },
       {
          "name":"Johto",
          "description":"Johto is one of the regions of the Pokémon world that appears in the Pokémon Gold, Silver and Crystal and Pokémon HeartGold and SoulSilver games.",
          "story":"In Johto lies traditional landscapes, myths and vestiges of the past, in which we find places of worship such as the copper tower and the scrap metal tower, built 700 years ago and intended to house the legendary Pokémon Lugia and Ho-Oh. Johto could be the cradle of a civilization that for many years has developed thanks to human beings. There is only one large city in the area, which is probably due to the fact that Johto preserves its history and remains and the people who live there prefer to maintain their traditional lifestyle.",
          "image":"https://zupimages.net/up/20/18/sopj.png",
-         "pokemon":[
-
-         ]
+         "pokemon_centre":"",
+         "pokemon_mont":"",
+         "pokemon_cote":""
       },
       {
          "name":"Hoenn",
          "description":"Hoenn is a region of the Pokémon world that appears in the Pokémon Ruby, Sapphire and Emerald games and their remakes, Pokémon Omega Ruby and Alpha Sapphire.",
          "story":"According to legend, the Hoenn was the creation of the legendary Pokémon Groudon and Kyogre. Groudon created the land and mountains, and Kyogre created the oceans and rivers. But both wanted to see the world in their own image. A terrible war took place, which was only ended by the intervention of Zigzagoon, a protective Pokémon venerated by the Hoenn people, who calmed both Pokémon. Then Primal Reversion appeared and the two began again a war, threatening the people and the Pokémon of Hoenn. After their prayers, Zigzagoon came down from sky. The fight lasted 20 days and 20 nights ...",
          "image":"https://zupimages.net/up/20/18/v2v2.png",
-         "pokemon":[
-
-         ]
+         "pokemon_centre":"",
+         "pokemon_mont":"",
+         "pokemon_cote":""
       },
       {
          "name":"Kanto",
          "description":"Kanto is the first revealed region of the Pokémon world to appear in the Red, Blue and Yellow Pokémon games.",
          "story":"Kanto is an industrialized and urbanized region. There are no signs of human presence there that are ancient enough to imagine that the area could have been inhabited for a long time. The region of Kanto, which was to be a new territory for Johto, then became deeply differentiated in terms of its way of life. In Kanto there are no mythical stories or constructions associated with a legendary Pokémon. The most emblematic Pokémon in the region remains Mewtwo, a human creation.",
          "image":"https://zupimages.net/up/20/18/zz4m.png",
-         "pokemon":[
-
-         ]
+         "pokemon_centre":"",
+         "pokemon_mont":"",
+         "pokemon_cote":""
       },
       {
          "name":"Alola",
          "description":"Alola is the region where the story of Pokémon Sun and Moon and Pokémon Ultra-Sun and Ultra-Moon takes place. This region is based on the Hawaiian archipelago.",
          "story":"According to the legends of Alola, the Guardian deities serve as protectors of the island each resides in. At one point, they participated in war against each other, due to the destruction the war brought, they stopped being involved in human affairs. Whenever an Ultra Beast appears in Alola, the deities will fiercely fight against it in order to protect their islands from invaders. A Solgaleo/Lunala defeated them easily. As a reward, Tapunium Z was bestowed upon them. The Solgaleo/Lunala then created many Cosmog for the Guardian deities to protect and watch over until they fully evolved and returned to Ultra Space.",
          "image":"https://zupimages.net/up/20/18/phv5.png",
-         "pokemon":[
-
-         ]
+         "pokemon_centre":"",
+         "pokemon_mont":"",
+         "pokemon_cote":""
       },
       {
          "name":"Galar",
          "description":"Galar is the region where the plot of the Pokémon Sword and Shield games takes place. Galar has three important cities: Motorby, Kickenham and the larger Winscor.",
          "story":"",
          "image":"https://zupimages.net/up/20/18/4auf.png",
-         "pokemon":[
-
-         ]
+         "pokemon_centre":"",
+         "pokemon_mont":"",
+         "pokemon_cote":""
       }
    ]
 }
