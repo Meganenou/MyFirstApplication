@@ -50,6 +50,10 @@
     }
   ],
   "pokemon":[
+    {"id":"0",
+      "name":"Staters Pokémon : Chespin Quilladin Chesnaught / Froakie Frogadier Greninja / Fennekin Braixen Delphox",
+      "image":""
+    },
     {
       "id":"1",
       "name":"Fletchling Fletchinder Talonflame",
@@ -72,7 +76,7 @@
     },
     {
       "id":"5",
-      "name":"Magikarp Gyarados",
+      "name":"Magikarp Gyarados Mega Gyarados",
       "image":""
     },
     {
@@ -112,127 +116,102 @@
     },
     {
       "id":"13",
-      "name":"Snorlax",
-      "image":""
-    },
-    {
-      "id":"14",
       "name":"Axew Fraxure Haxorus",
       "image":""
     },
     {
-      "id":"16",
+      "id":"14",
       "name":"Goomy Sliggoo Goodra",
       "image":""
     },
     {
-      "id":"17",
+      "id":"15",
       "name":"Karrablast Escavalier / Shelmet Accelgor",
       "image":""
     },
     {
-      "id":"18",
+      "id":"16",
       "name":"Gastly Haunter Gengar",
       "image":""
     },
     {
-      "id":"19",
-      "name":"Pawniard Bisharp",
-      "image":""
-    },
-    {
-      "id":"21",
+      "id":"17",
       "name":"Foongus Amoonguss",
       "image":""
     },
     {
-      "id":"22",
+      "id":"18",
       "name":"Phantump Trevenant / Pumpkaboo Gourgeist",
       "image":""
     },
     {
-      "id":"23",
+      "id":"19",
       "name":"Trubbish Garbodor",
       "image":""
     },
     {
-      "id":"24",
+      "id":"20",
       "name":"Cubchoo Beartic",
       "image":""
     },
     {
-      "id":"25",
+      "id":"21",
       "name":"Timburr Gurdurr Conkeldurr",
       "image":""
     },
     {
-      "id":"26",
+      "id":"22",
       "name":"Noibat Noivern",
       "image":""
     },
     {
-      "id":"27",
-      "name":"Druddigon",
-      "image":""
-    },
-    {
-      "id":"28",
+      "id":"23",
       "name":"Deino Zweilous Hydreigon",
       "image":""
     },
     {
-      "id":"29",
+      "id":"24",
       "name":"Mienfoo Mienshao",
       "image":""
     },
     {
-      "id":"30",
+      "id":"25",
       "name":"Absol",
       "image":""
     },
     {
-      "id":"31",
+      "id":"26",
       "name":"sepiatop sepiatroce",
       "image":""
     },
     {
-      "id":"32",
+      "id":"27",
       "name":"Wailmer Wailord",
       "image":""
     },
     {
-      "id":"33",
+      "id":"28",
       "name":"Skrelp Dragalge",
       "image":""
     },
     {
-      "id":"35",
-      "name":"Onix Steelix",
-      "image":""
-    },
-    {
-      "id":"36",
+      "id":"29",
       "name":"Woobat Swoobat",
       "image":""
     },
     {
-      "id":"37",
+      "id":"30",
       "name":"Tyrunt Tyrantrum / Amaura Aurorus",
       "image":""
     },
-    {
-      "id":"38",
-      "name":"Hawlucha",
-      "image":""
-    },
-    {
-      "id":"39",
+   {
+      "id":"31",
       "name":"Solosis Duosion Reuniclus",
       "image":""
     },
     {
-      "id":"40",
-      "name":"Sableye",
+      "id":"999",
+      "name":"Xerneas VS Yveltal",
       "image":""
     }
   ]
