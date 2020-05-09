@@ -13,4 +13,6 @@
     <string name="description_of_legendaries_3">description of lengendaries 3</string>
     <string name="end_of_story">~End of Story~</string>
     <string name="image_description">mini_map_region</string>
+    <string name="color_skin">#B58C5B</string>
+    <string name="dark_brown">#230C04</string>
 </resources>

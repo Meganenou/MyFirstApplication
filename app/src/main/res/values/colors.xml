@@ -10,4 +10,5 @@
     <color name="color_region_top">#230C04</color>
     <color name="pale_green">#4CDC87</color>
     <color name="dark_pink">#FD4C082D</color>
+    <color name="black">#000000</color>
 </resources>

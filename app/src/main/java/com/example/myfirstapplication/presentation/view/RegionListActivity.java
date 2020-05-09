@@ -1,4 +1,4 @@
-package com.example.myfirstapplication;
+package com.example.myfirstapplication.presentation.view;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -12,6 +12,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.myfirstapplication.Constants;
+import com.example.myfirstapplication.R;
+import com.example.myfirstapplication.data.PokeAPI;
+import com.example.myfirstapplication.presentation.model.Region;
+import com.example.myfirstapplication.presentation.model.RestPokemonResponse;
+import com.example.myfirstapplication.presentation.view.ListAdapter;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
@@ -45,7 +51,7 @@ public class RegionListActivity extends AppCompatActivity {
         actionBar = getSupportActionBar();
 
         ColorDrawable colorDrawable
-                = new ColorDrawable(Color.parseColor("#B58C5B"));
+                = new ColorDrawable(Color.parseColor(getString(R.string.color_skin)));
         if (actionBar != null) {
             actionBar.setBackgroundDrawable(colorDrawable);
         }

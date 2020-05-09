@@ -11,8 +11,9 @@
         android:roundIcon="@mipmap/poke_history_icon_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity
-            android:name=".MainActivity"
+            android:name=".presentation.view.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -22,18 +23,18 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".RegionListActivity"
-            android:parentActivityName=".MainActivity">
+        <activity android:name=".presentation.view.RegionListActivity"
+            android:parentActivityName=".presentation.view.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".presentation.view.MainActivity" />
         </activity>
 
-        <activity android:name=".HistoryActivity"
-            android:parentActivityName=".RegionListActivity">
+        <activity android:name=".presentation.view.HistoryActivity"
+            android:parentActivityName=".presentation.view.RegionListActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".RegionListActivity"/>
+                android:value=".presentation.view.RegionListActivity"/>
         </activity>
 
         <meta-data
