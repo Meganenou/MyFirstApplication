@@ -16,25 +16,12 @@ import com.squareup.picasso.Picasso;
 
 public class HistoryActivity extends AppCompatActivity {
 
-    ListView listView;
-
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_history);
 
-        ActionBar actionBar;
-        actionBar = getSupportActionBar();
-
-        ColorDrawable colorDrawable
-                = new ColorDrawable(Color.parseColor(getString(R.string.dark_brown)));
-        if (actionBar != null) {
-            actionBar.setBackgroundDrawable(colorDrawable);
-        }
-
         getIncomingIntent();
-
     }
 
     private void getIncomingIntent() {
