@@ -1,18 +1,19 @@
 package com.example.myfirstapplication;
 
+import java.util.List;
+
 public class Region {
 
     private String name;
     private String description;
     private String story;
     private String image;
-
-    public Region(String name, String description, String story, String image) {
-        this.name = name;
-        this.description = description;
-        this.story = story;
-        this.image = image;
-    }
+    private String country;
+    private String legendary_primary;
+    private String primary_pic;
+    private String legendary_secondary;
+    private String secondary_pic;
+    private String legendary_fabulous;
 
     public String getName() {
         return name;
@@ -28,6 +29,30 @@ public class Region {
 
     public String getImage() {
         return image;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public String getLegendary_primary() {
+        return legendary_primary;
+    }
+
+    public String getPrimary_pic() {
+        return primary_pic;
+    }
+
+    public String getLegendary_secondary() {
+        return legendary_secondary;
+    }
+
+    public String getSecondary_pic() {
+        return secondary_pic;
+    }
+
+    public String getLegendary_fabulous() {
+        return legendary_fabulous;
     }
 
 }

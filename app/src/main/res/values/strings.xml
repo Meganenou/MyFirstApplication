@@ -1,20 +1,16 @@
 <resources>
-    <string name="app_name">"Pokemon Earth"</string>
+    <string name="app_name">"Poké History"</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="previous">C\'est super</string>
-    <string name="hello_first_fragment">0</string>
-    <string name="menu_text">Menu</string>
-    <string name="return_home_button">"Return home"</string>
-    <string name="result_text">Result</string>
     <string name="regionName">Region name</string>
-    <string name="descriptionContent">description</string>
+    <string name="descriptionContent">Description oh the Region</string>
     <string name="example_application">Example application</string>
-    <string name="todo">TODO</string>
-    <string name="main_title">Main_title</string>
-    <string name="image_description">Image_description</string>
-    <string name="story">Story</string>
-    <string name="exploration">Exploration</string>
+    <string name="regionpicture">regionPicture</string>
+    <string name="story_of_the_region">Story of the Region</string>
+    <string name="legend">Legend</string>
+    <string name="description_of_legendaries_1">description of legendaries 1</string>
+    <string name="description_of_legendaries_2">description of legendaries 2</string>
+    <string name="description_of_legendaries_3">description of lengendaries 3</string>
+    <string name="end_of_story">~End of Story~</string>
+    <string name="image_description">mini_map_region</string>
 </resources>

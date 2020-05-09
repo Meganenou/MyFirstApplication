@@ -2,12 +2,13 @@ package com.example.myfirstapplication;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.ListView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -16,8 +17,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.squareup.picasso.Picasso;
 
-import java.util.ArrayList;
-import java.util.Collections;
+import java.io.Serializable;
 import java.util.List;
 
 public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
@@ -25,9 +25,6 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
     private List<Region> values;
     private Context context;
 
-    // Provide a reference to the views for each data item
-    // Complex data items may need more than one view per item, and
-    // you provide access to all the views for a data item in a view holder
     class ViewHolder extends RecyclerView.ViewHolder {
         // each data item is just a string in this case
         TextView txtHeader;
@@ -38,21 +35,12 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
 
         ViewHolder(View v) {
             super(v);
+            layout = v;
             txtHeader = (TextView) v.findViewById(R.id.firstLine);
             txtFooter = (TextView) v.findViewById(R.id.secondLine);
             image = (ImageView) v.findViewById(R.id.icon_List);
             linearLayout = (LinearLayout) v.findViewById(R.id.linearLayout);
         }
-    }
-
-    public void add(int position, Region item) {
-        values.add(position, item);
-        notifyItemInserted(position);
-    }
-
-    private void remove(int position) {
-        values.remove(position);
-        notifyItemRemoved(position);
     }
 
     // Provide a suitable constructor (depends on the kind of dataset)
@@ -78,13 +66,8 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
     @Override
     public void onBindViewHolder(ViewHolder holder, final int position) {
         final Region currentRegion = values.get(position);
+
         holder.txtHeader.setText(currentRegion.getName());
-        /*holder.txtHeader.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                remove(position);
-            }
-        });*/
 
         holder.txtFooter.setText(currentRegion.getDescription());
 
@@ -92,15 +75,27 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
                 .load(currentRegion.getImage())
                 .into(holder.image);
 
+
         holder.linearLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(context, "You clicked "+currentRegion.getName(), Toast.LENGTH_LONG).show();
-                if(position == 0) {
-                    Intent intent = new Intent(context, PathYouChoose.class);
+                Toast.makeText(context, "Exploring region ... " + currentRegion.getName() + " ! ", Toast.LENGTH_LONG).show();
+                if (position != 7) {
+
+                    Intent intent = new Intent(context, HistoryActivity.class);
+                    intent.putExtra("region image", currentRegion.getImage());
+                    intent.putExtra("region story", currentRegion.getStory());
+                    intent.putExtra("country", currentRegion.getCountry());
+                    intent.putExtra("legend 1", currentRegion.getLegendary_primary());
+                    intent.putExtra("pic 1", currentRegion.getPrimary_pic());
+                    intent.putExtra("legend 2", currentRegion.getLegendary_secondary());
+                    intent.putExtra("pic 2", currentRegion.getSecondary_pic());
+                    intent.putExtra("legend 3", currentRegion.getLegendary_fabulous());
+
                     context.startActivity(intent);
-               } else {
-                    Toast.makeText(context, currentRegion.getName()+" come soon ...", Toast.LENGTH_LONG).show();
+
+                } else {
+                    Toast.makeText(context, " Coming soon ...", Toast.LENGTH_LONG).show();
                 }
             }
         });
