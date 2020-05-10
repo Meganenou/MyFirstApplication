@@ -23,7 +23,13 @@ _"Les Pokémons et leurs mytères, le secret de leurs pouvoirs..."_ se trouve da
 * Architecture : Singleton, Design Patterns, MVC, Principe SOLID
 * Design
 ### Fonctionnalités
-* Logo 
+* Logo
+
+**Seulement le logo**
 <p align="center">
-<img src="https://user-images.githubusercontent.com/63911484/81498047-edd9b500-92c2-11ea-96b4-31d7ad417df0.png" width="150" height="150">
+<img src="https://user-images.githubusercontent.com/63911484/81501916-271e1f00-92db-11ea-9298-243f6d7047dc.png" width="150" height="150">
 </p>
+
+**Sur écran**
+
+<img src="https://user-images.githubusercontent.com/63911484/81502151-7e70bf00-92dc-11ea-9959-f34c3aea7b62.png" width="270" height="480">
