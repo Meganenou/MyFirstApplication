@@ -13,10 +13,9 @@ Ce projet utilise l'ensemble des notions vues en cours dans l'enseignement de la
 * Code : https://github.com/Meganenou/MyFirstApplication/tree/master/app
 * API : https://github.com/Meganenou/MyFirstApplication/blob/master/MyAPI_pokemon.json
 ## Logiciels
-* Installation d'Android Studio<img src="https://user-images.githubusercontent.com/63911484/81506037-01e9da80-92f4-11ea-9fb5-2b05f7160a78.png" width="100" height="100">
+* <img src="https://user-images.githubusercontent.com/63911484/81506037-01e9da80-92f4-11ea-9fb5-2b05f7160a78.png" width="60" height="60">Installation d'Android Studio
 
-* Paint Tool SAI
-<img src="https://user-images.githubusercontent.com/63911484/81506048-14fcaa80-92f4-11ea-83a5-efeee856df6b.png" width="100" height="100">
+* <img src="https://user-images.githubusercontent.com/63911484/81506048-14fcaa80-92f4-11ea-83a5-efeee856df6b.png" width="60" height="60">Paint Tool SAI
 
 ## Consignes respectées
 * Écran avec une liste d'éléments dans une RecyclerView
@@ -77,8 +76,7 @@ Arbore une forme de PokéBall dorée avec une esquisse du [Mew](https://www.poke
 
 
 ### Sources
-Toutes les images proviennent de Pinterest <img src="https://user-images.githubusercontent.com/63911484/81506030-f7c7dc00-92f3-11ea-928e-77ff29f106e1.png" width="100" height="110">
-
+<img src="https://user-images.githubusercontent.com/63911484/81506030-f7c7dc00-92f3-11ea-928e-77ff29f106e1.png" width="100" height="110">Toutes les images proviennent de Pinterest.
 Les informations ont été récupérées sur:
-* <img src="https://user-images.githubusercontent.com/63911484/81505968-84be6580-92f3-11ea-89ba-1681a1c5260a.png" width="100" height="110"> _[Poképédia](https://www.pokepedia.fr/Portail:Accueil)_, wiképédia version Pokémon
-* <img src="https://user-images.githubusercontent.com/63911484/81505982-a0c20700-92f3-11ea-8670-dc127e54d565.png" width="120" height="100">_[Pokébip](https://www.pokebip.com/)_, site sur lequel on trouve toutes l'actualité Pokémon
+* <img src="https://user-images.githubusercontent.com/63911484/81505968-84be6580-92f3-11ea-89ba-1681a1c5260a.png" width="100" height="110"> _[Poképédia](https://www.pokepedia.fr/Portail:Accueil)_, wiképédia version Pokémon.
+* <img src="https://user-images.githubusercontent.com/63911484/81506297-9bfe5280-92f5-11ea-9023-0bace235feeb.png" width="120" height="100">_[Pokébip](https://www.pokebip.com/)_, site sur lequel on trouve toutes l'actualité Pokémon.
