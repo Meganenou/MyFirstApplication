@@ -6,9 +6,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/poke_history_icon"
+        android:icon="@mipmap/poke_history_logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/poke_history_icon_round"
+        android:roundIcon="@mipmap/poke_history_logo_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
