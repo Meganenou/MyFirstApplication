@@ -24,4 +24,6 @@ _"Les Pokémons et leurs mytères, le secret de leurs pouvoirs..."_ se trouve da
 * Design
 ### Fonctionnalités
 * Logo 
+<p align="center"
 <img src="https://user-images.githubusercontent.com/63911484/81498047-edd9b500-92c2-11ea-96b4-31d7ad417df0.png" width="150" height="150">
+</p>
