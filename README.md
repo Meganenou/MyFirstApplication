@@ -13,7 +13,7 @@ Ce projet utilise l'ensemble des notions vues en cours dans l'enseignement de la
 * Code : https://github.com/Meganenou/MyFirstApplication/tree/master/app
 * API : https://github.com/Meganenou/MyFirstApplication/blob/master/MyAPI_pokemon.json
 ## Logiciels
-* <img src="https://user-images.githubusercontent.com/63911484/81506037-01e9da80-92f4-11ea-9fb5-2b05f7160a78.png" width="60" height="60">Installation d'Android Studio
+* <img src="https://user-images.githubusercontent.com/63911484/81506037-01e9da80-92f4-11ea-9fb5-2b05f7160a78.png" width="60" height="60">Android Studio
 
 * <img src="https://user-images.githubusercontent.com/63911484/81506048-14fcaa80-92f4-11ea-83a5-efeee856df6b.png" width="60" height="60">Paint Tool SAI
 
@@ -23,7 +23,7 @@ Ce projet utilise l'ensemble des notions vues en cours dans l'enseignement de la
 * Appel WebService à une API Rest
 * Stockage de données en cache
 * Architecture : Singleton, Design Patterns, MVC, Principe SOLID
-* Design
+* Design : Material Design (Android Studio), Paint Tool SAI, Pinterest
 ## Fonctionnalités
 ### Écran d'acceuil
 Application entièrement écrite en anglais.
@@ -37,7 +37,7 @@ Application entièrement écrite en anglais.
 Les régions du Monde Pokémon sont répertoriées.
 * Utilisation de la `RecyclerView` et de l'[API Pokémon](https://github.com/Meganenou/MyFirstApplication/blob/master/MyAPI_pokemon.json).
 
-<img src="https://user-images.githubusercontent.com/63911484/81502696-aca3ce00-92df-11ea-8261-cf760377a36e.png" width="270" height="480">
+<img src="https://user-images.githubusercontent.com/63911484/81502696-aca3ce00-92df-11ea-8261-cf760377a36e.png" width="270" height="480"> ![alt-text](https://media.giphy.com/media/lqGVHIODa5KYbe4Tuf/giphy.gif)
 
 ### Écran détail de la région
 Description de la région et Histoire.
@@ -45,7 +45,7 @@ Pokémons Légendaires et Fabuleux associés à la région.
 * Utilisation de l'[API Pokémon](https://github.com/Meganenou/MyFirstApplication/blob/master/MyAPI_pokemon.json)
 , de la `ScrollView`.
 
-<img src="https://user-images.githubusercontent.com/63911484/81504221-47a0a600-92e8-11ea-9586-850ffd0c32b8.png" width="270" height="480">
+<img src="https://user-images.githubusercontent.com/63911484/81504221-47a0a600-92e8-11ea-9586-850ffd0c32b8.png" width="270" height="480"> ![alt-text](https://media.giphy.com/media/WtCqf7PwgrcGg9ZFan/giphy.gif)
 
 ### Design & Création
 * Logo
