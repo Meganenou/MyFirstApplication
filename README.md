@@ -1,9 +1,13 @@
 # Projet 3A - Application mobile : Poké History
 ## Étudiante : _MOORGHEN Mégane_
 ## Présentation
-Projet utilisant la Recyclerview et du pattern MVC dans une application android codé en Java.
+Ce projet utilise l'ensemble des notions vues en cours dans l'enseignement de la Programmation Mobile.
 
-Cette application la liste de toutes les région du monde Pokémon et récupère ses données sur une API crée et hébergée sur GitHub. Les régions regroupent les connaîssances de l'Histoire pokémon et répertorient tous les Pokémons légendaires et fabuleux.
-## Logiciel
+_"Les Pokémons et leurs mytères, le secret de leurs pouvoirs..."_ se trouve dans l'application **Poké History**. Découvrer les _régions_ du monde Pokémon et les mythes qui les entourent à travers l'Histoire des _Pokémons légendaires et fabuleux._
+## Table des matières
+* Logiciels utilisés
+* Consignes respectées
+* Fonctionnalités
+## Logiciels :
 * Installation d'Android Studio
 * Paint Tool SAI
