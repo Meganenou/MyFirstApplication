@@ -1,4 +1,4 @@
-package com.example.myfirstapplication.presentation.view;
+package com.example.pokehistory.presentation.view;
 
 import android.os.Bundle;
 import android.widget.Toast;
@@ -7,10 +7,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.myfirstapplication.R;
-import com.example.myfirstapplication.Singletons;
-import com.example.myfirstapplication.presentation.controller.RegionListController;
-import com.example.myfirstapplication.presentation.model.Region;
+import com.example.pokehistory.R;
+import com.example.pokehistory.Singletons;
+import com.example.pokehistory.presentation.controller.RegionListController;
+import com.example.pokehistory.presentation.model.Region;
 
 import java.util.List;
 

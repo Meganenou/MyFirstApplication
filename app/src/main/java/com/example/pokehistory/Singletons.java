@@ -1,9 +1,9 @@
-package com.example.myfirstapplication;
+package com.example.pokehistory;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.example.myfirstapplication.data.PokeAPI;
+import com.example.pokehistory.data.PokeAPI;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 

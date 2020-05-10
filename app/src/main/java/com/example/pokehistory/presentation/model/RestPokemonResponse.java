@@ -1,4 +1,4 @@
-package com.example.myfirstapplication.presentation.model;
+package com.example.pokehistory.presentation.model;
 
 import java.util.List;
 

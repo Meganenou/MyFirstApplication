@@ -1,13 +1,13 @@
-package com.example.myfirstapplication.presentation.controller;
+package com.example.pokehistory.presentation.controller;
 
 import android.content.SharedPreferences;
 import android.widget.Toast;
 
-import com.example.myfirstapplication.Constants;
-import com.example.myfirstapplication.Singletons;
-import com.example.myfirstapplication.presentation.model.Region;
-import com.example.myfirstapplication.presentation.model.RestPokemonResponse;
-import com.example.myfirstapplication.presentation.view.RegionListActivity;
+import com.example.pokehistory.Constants;
+import com.example.pokehistory.Singletons;
+import com.example.pokehistory.presentation.model.Region;
+import com.example.pokehistory.presentation.model.RestPokemonResponse;
+import com.example.pokehistory.presentation.view.RegionListActivity;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 

@@ -1,12 +1,12 @@
-package com.example.myfirstapplication.presentation.view;
+package com.example.pokehistory.presentation.view;
 
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.myfirstapplication.R;
-import com.example.myfirstapplication.presentation.controller.HistoryController;
+import com.example.pokehistory.R;
+import com.example.pokehistory.presentation.controller.HistoryController;
 
 public class HistoryActivity extends AppCompatActivity {
 

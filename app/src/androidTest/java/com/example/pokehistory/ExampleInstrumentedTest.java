@@ -1,4 +1,4 @@
-package com.example.myfirstapplication;
+package com.example.pokehistory;
 
 import android.content.Context;
 

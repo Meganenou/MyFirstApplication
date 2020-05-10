@@ -1,4 +1,4 @@
-package com.example.myfirstapplication.presentation.view;
+package com.example.pokehistory.presentation.view;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,8 +13,8 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.myfirstapplication.R;
-import com.example.myfirstapplication.presentation.model.Region;
+import com.example.pokehistory.R;
+import com.example.pokehistory.presentation.model.Region;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;

@@ -1,9 +1,9 @@
-package com.example.myfirstapplication.presentation.controller;
+package com.example.pokehistory.presentation.controller;
 
 import android.content.Intent;
 
-import com.example.myfirstapplication.presentation.view.MainActivity;
-import com.example.myfirstapplication.presentation.view.RegionListActivity;
+import com.example.pokehistory.presentation.view.MainActivity;
+import com.example.pokehistory.presentation.view.RegionListActivity;
 
 public class MainController {
 

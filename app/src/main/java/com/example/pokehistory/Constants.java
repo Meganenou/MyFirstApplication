@@ -1,4 +1,4 @@
-package com.example.myfirstapplication;
+package com.example.pokehistory;
 
 public class Constants {
     public static String KEY_REGION_LIST = "jsonRegionList";

@@ -1,10 +1,10 @@
-package com.example.myfirstapplication.presentation.controller;
+package com.example.pokehistory.presentation.controller;
 
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.myfirstapplication.R;
-import com.example.myfirstapplication.presentation.view.HistoryActivity;
+import com.example.pokehistory.R;
+import com.example.pokehistory.presentation.view.HistoryActivity;
 import com.squareup.picasso.Picasso;
 
 public class HistoryController {

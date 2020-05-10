@@ -1,14 +1,13 @@
-package com.example.myfirstapplication.presentation.view;
+package com.example.pokehistory.presentation.view;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.view.View;
 
-import com.example.myfirstapplication.R;
-import com.example.myfirstapplication.presentation.controller.MainController;
+import com.example.pokehistory.R;
+import com.example.pokehistory.presentation.controller.MainController;
 
 public class MainActivity extends AppCompatActivity {
 
