@@ -40,11 +40,10 @@ Les régions du Monde Pokémon sont répertoriées.
 <img src="https://user-images.githubusercontent.com/63911484/81502696-aca3ce00-92df-11ea-8261-cf760377a36e.png" width="270" height="480"> ![alt-text](https://media.giphy.com/media/lqGVHIODa5KYbe4Tuf/giphy.gif)
 
 ### Écran détail de la région
-Description de la région et Histoire.
+Description de la région et découverte de l'_Histoire_.
 
 Pokémons Légendaires et Fabuleux associés à la région.
-* Utilisation de l'[API Pokémon](https://github.com/Meganenou/MyFirstApplication/blob/master/MyAPI_pokemon.json)
-, de la `ScrollView`.
+* Utilisation de l'[API Pokémon](https://github.com/Meganenou/MyFirstApplication/blob/master/MyAPI_pokemon.json) et de la `ScrollView`.
 
 <img src="https://user-images.githubusercontent.com/63911484/81504221-47a0a600-92e8-11ea-9586-850ffd0c32b8.png" width="270" height="480"> ![alt-text](https://user-images.githubusercontent.com/63911484/81509451-19808d80-930b-11ea-903a-9e2dc70603f5.gif)
 
@@ -81,8 +80,8 @@ Permet d'aller à la seconde page.
 
 
 ### Sources
-<img src="https://user-images.githubusercontent.com/63911484/81506030-f7c7dc00-92f3-11ea-928e-77ff29f106e1.png" width="100" height="100> Toutes les images proviennent de _[Pinterest](https://www.pinterest.fr/)_.
+<img src="https://user-images.githubusercontent.com/63911484/81506030-f7c7dc00-92f3-11ea-928e-77ff29f106e1.png" width="90" height="90"> Toutes les images proviennent de _[Pinterest](https://www.pinterest.fr/)_.
 
-Les informations ont été récupérées sur:
-* <img src="https://user-images.githubusercontent.com/63911484/81505968-84be6580-92f3-11ea-89ba-1681a1c5260a.png" width="100" height="10"> _[Poképédia](https://www.pokepedia.fr/Portail:Accueil)_, wiképédia version Pokémon.
+**Les informations ont été récupérées sur:**
+* <img src="https://user-images.githubusercontent.com/63911484/81505968-84be6580-92f3-11ea-89ba-1681a1c5260a.png" width="100" height="110"> _[Poképédia](https://www.pokepedia.fr/Portail:Accueil)_, wiképédia version Pokémon.
 * <img src="https://user-images.githubusercontent.com/63911484/81506297-9bfe5280-92f5-11ea-9023-0bace235feeb.png" width="110" height="90">_[Pokébip](https://www.pokebip.com/)_, site sur lequel on trouve toutes l'actualité Pokémon.
